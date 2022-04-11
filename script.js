@@ -1,5 +1,5 @@
 import { API_KEY } from './apikey.js'
-const url = `http://www.omdbapi.com/?apikey=${API_KEY}`
+const url = `https://www.omdbapi.com/?apikey=${API_KEY}`
 const input = document.querySelector('#input-search')
 const resultsWrapper = document.querySelector('.research-results')
 let options = {
